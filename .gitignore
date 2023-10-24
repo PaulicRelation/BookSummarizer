@@ -1,0 +1,82 @@
+# Xcode
+#
+# Ignore the Xcode project files
+*.xcodeproj
+*.xcworkspace
+
+# Ignore the Xcode user-specific workspace settings
+xcuserdata
+
+# Ignore the Xcode scheme settings
+xcshareddata
+
+# Swift Package Manager
+#
+# Ignore the Package.resolved file
+Package.resolved
+
+# macOS
+#
+# Ignore hidden .DS_Store files
+.DS_Store
+
+# Build products
+#
+# Ignore the build directory
+/build
+
+# Dependency directories
+#
+# Ignore the Carthage checkouts directory
+Carthage/Checkouts
+
+# CocoaPods
+#
+# Ignore the Pods directory
+Pods
+
+# Compiled source
+#
+# Ignore the output of the Swift compiler and the output of the Swift Package Manager
+.build
+
+# Xcode Private
+#
+# Ignore Xcode private data
+.xcuserdatad
+
+# Swift Package Manager Metadata
+#
+# SwiftPM Package Cache
+.build
+
+# CocoaPods
+#
+# CocoaPods artifacts
+Pods/
+
+# Carthage
+#
+# Carthage artifacts
+Carthage/
+
+# SwiftPM
+#
+# SWIFT_PACKAGE_REPOSITORY_PATH
+.build/
+DerivedData/
+.psw/
+.pswx/
+
+# Playgrounds
+#
+# Swift Playground files
+timeline.xctimeline
+playground.xcworkspace
+xcuserdata/
+
+# User-specific files
+#
+# Ignore user-specific files
+xcuserdata
+

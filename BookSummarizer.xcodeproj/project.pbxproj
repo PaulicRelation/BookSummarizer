@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3E7362F72AE7A74A009E4CAB /* BookSummarizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7362F62AE7A74A009E4CAB /* BookSummarizerApp.swift */; };
-		3E7362F92AE7A74A009E4CAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7362F82AE7A74A009E4CAB /* ContentView.swift */; };
 		3E7362FB2AE7A74C009E4CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7362FA2AE7A74C009E4CAB /* Assets.xcassets */; };
 		3E7362FE2AE7A74C009E4CAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7362FD2AE7A74C009E4CAB /* Preview Assets.xcassets */; };
-		3E7363082AE7A74C009E4CAB /* BookSummarizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7363072AE7A74C009E4CAB /* BookSummarizerTests.swift */; };
 		3E7363122AE7A74C009E4CAB /* BookSummarizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7363112AE7A74C009E4CAB /* BookSummarizerUITests.swift */; };
 		3E7363142AE7A74C009E4CAB /* BookSummarizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7363132AE7A74C009E4CAB /* BookSummarizerUITestsLaunchTests.swift */; };
+		3E7363212AE7A7B9009E4CAB /* BookPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7363202AE7A7B9009E4CAB /* BookPlayerView.swift */; };
+		3E7363232AE7A807009E4CAB /* BookPlayerFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7363222AE7A807009E4CAB /* BookPlayerFeature.swift */; };
+		3E7363252AE7A836009E4CAB /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7363242AE7A836009E4CAB /* CustomToggle.swift */; };
+		3E7363282AE7A8D9009E4CAB /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7363272AE7A8D9009E4CAB /* AudioPlayer.swift */; };
+		3E73632B2AE7A983009E4CAB /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3E73632A2AE7A983009E4CAB /* ComposableArchitecture */; };
+		3E9ABA2A2AE7AB1000F12831 /* Sapiens_Sample.m4b in Resources */ = {isa = PBXBuildFile; fileRef = 3E9ABA292AE7AB1000F12831 /* Sapiens_Sample.m4b */; };
+		3E9ABA2C2AE7B47100F12831 /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9ABA2B2AE7B47100F12831 /* Color+Palette.swift */; };
+		3E9ABA2F2AE7CC8900F12831 /* BookPlayerFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9ABA2E2AE7CC8900F12831 /* BookPlayerFeatureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +42,19 @@
 /* Begin PBXFileReference section */
 		3E7362F32AE7A74A009E4CAB /* BookSummarizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookSummarizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7362F62AE7A74A009E4CAB /* BookSummarizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSummarizerApp.swift; sourceTree = "<group>"; };
-		3E7362F82AE7A74A009E4CAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E7362FA2AE7A74C009E4CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7362FD2AE7A74C009E4CAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E7363032AE7A74C009E4CAB /* BookSummarizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookSummarizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E7363072AE7A74C009E4CAB /* BookSummarizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSummarizerTests.swift; sourceTree = "<group>"; };
 		3E73630D2AE7A74C009E4CAB /* BookSummarizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookSummarizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7363112AE7A74C009E4CAB /* BookSummarizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSummarizerUITests.swift; sourceTree = "<group>"; };
 		3E7363132AE7A74C009E4CAB /* BookSummarizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSummarizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E7363202AE7A7B9009E4CAB /* BookPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPlayerView.swift; sourceTree = "<group>"; };
+		3E7363222AE7A807009E4CAB /* BookPlayerFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPlayerFeature.swift; sourceTree = "<group>"; };
+		3E7363242AE7A836009E4CAB /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		3E7363272AE7A8D9009E4CAB /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		3E9ABA292AE7AB1000F12831 /* Sapiens_Sample.m4b */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sapiens_Sample.m4b; sourceTree = "<group>"; };
+		3E9ABA2B2AE7B47100F12831 /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
+		3E9ABA2E2AE7CC8900F12831 /* BookPlayerFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPlayerFeatureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E73632B2AE7A983009E4CAB /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				3E7362F62AE7A74A009E4CAB /* BookSummarizerApp.swift */,
-				3E7362F82AE7A74A009E4CAB /* ContentView.swift */,
+				3E7363222AE7A807009E4CAB /* BookPlayerFeature.swift */,
+				3E7363202AE7A7B9009E4CAB /* BookPlayerView.swift */,
+				3E7363242AE7A836009E4CAB /* CustomToggle.swift */,
+				3E9ABA292AE7AB1000F12831 /* Sapiens_Sample.m4b */,
+				3E9ABA2D2AE7C98B00F12831 /* Helper */,
 				3E7362FA2AE7A74C009E4CAB /* Assets.xcassets */,
 				3E7362FC2AE7A74C009E4CAB /* Preview Content */,
 			);
@@ -113,7 +129,7 @@
 		3E7363062AE7A74C009E4CAB /* BookSummarizerTests */ = {
 			isa = PBXGroup;
 			children = (
-				3E7363072AE7A74C009E4CAB /* BookSummarizerTests.swift */,
+				3E9ABA2E2AE7CC8900F12831 /* BookPlayerFeatureTests.swift */,
 			);
 			path = BookSummarizerTests;
 			sourceTree = "<group>";
@@ -125,6 +141,15 @@
 				3E7363132AE7A74C009E4CAB /* BookSummarizerUITestsLaunchTests.swift */,
 			);
 			path = BookSummarizerUITests;
+			sourceTree = "<group>";
+		};
+		3E9ABA2D2AE7C98B00F12831 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3E7363272AE7A8D9009E4CAB /* AudioPlayer.swift */,
+				3E9ABA2B2AE7B47100F12831 /* Color+Palette.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +168,9 @@
 			dependencies = (
 			);
 			name = BookSummarizer;
+			packageProductDependencies = (
+				3E73632A2AE7A983009E4CAB /* ComposableArchitecture */,
+			);
 			productName = BookSummarizer;
 			productReference = 3E7362F32AE7A74A009E4CAB /* BookSummarizer.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,9 @@
 				Base,
 			);
 			mainGroup = 3E7362EA2AE7A74A009E4CAB;
+			packageReferences = (
+				3E7363292AE7A983009E4CAB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 3E7362F42AE7A74A009E4CAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E7362FE2AE7A74C009E4CAB /* Preview Assets.xcassets in Resources */,
+				3E9ABA2A2AE7AB1000F12831 /* Sapiens_Sample.m4b in Resources */,
 				3E7362FB2AE7A74C009E4CAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7362F92AE7A74A009E4CAB /* ContentView.swift in Sources */,
+				3E7363212AE7A7B9009E4CAB /* BookPlayerView.swift in Sources */,
+				3E7363232AE7A807009E4CAB /* BookPlayerFeature.swift in Sources */,
+				3E7363282AE7A8D9009E4CAB /* AudioPlayer.swift in Sources */,
+				3E7363252AE7A836009E4CAB /* CustomToggle.swift in Sources */,
 				3E7362F72AE7A74A009E4CAB /* BookSummarizerApp.swift in Sources */,
+				3E9ABA2C2AE7B47100F12831 /* Color+Palette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7363082AE7A74C009E4CAB /* BookSummarizerTests.swift in Sources */,
+				3E9ABA2F2AE7CC8900F12831 /* BookPlayerFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E7363292AE7A983009E4CAB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E73632A2AE7A983009E4CAB /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E7363292AE7A983009E4CAB /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E7362EB2AE7A74A009E4CAB /* Project object */;
 }
